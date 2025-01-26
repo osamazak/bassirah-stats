@@ -1,4 +1,4 @@
-publicmodule.exports = {
+module.exports = {
   base: {
     // Excludes folders relative to `root` directory.
     exclude: [
@@ -22,7 +22,7 @@ publicmodule.exports = {
     buildTemplatePath: 'html',
 
     // Folder for production build
-    buildPath: './public'
+    buildPath: './build'
   },
   development: {
     // Build path can be both relative or absolute.
